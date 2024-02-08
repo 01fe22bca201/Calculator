@@ -17,12 +17,17 @@ public class arithmetic {
         int differenceResult = subtract(a, b);
         int productResult = multiply(a, b);
         int quotientResult = divide(a, b);
+        int squresult=square(a);
+        int cuberesult=cube(a);
         System.out.println("the arithmetic operations are as follows:");
 
         System.out.println("Sum: " + sumResult);
         System.out.println("Difference: " + differenceResult);
         System.out.println("Product: " + productResult);
         System.out.println("Quotient: " + quotientResult);
+        System.out.println("square:"+squresult);
+        System.out.println("cuberesult:"+cuberesult);
+
 
     
     }
@@ -72,5 +77,11 @@ public class arithmetic {
      */
     public static int divide(int a, int b) {
         return a / b;
+    }
+    public static int square(int a){
+        return a*a;
+    }
+    public static int cube(int a){
+        return a*a*a;
     }
 }
