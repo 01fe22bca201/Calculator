@@ -1,4 +1,3 @@
-
 /**
  * The "arithmetic" class performs basic arithmetic operations such as addition, subtraction,
  * multiplication, and division on two given integers.
